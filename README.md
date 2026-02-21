@@ -44,6 +44,14 @@ git push -u origin feature/login
 ## 브랜치가 이미 있는걸 clone 했을 경우
 git pull origin feature/login
 
+## 브렌치에도 main  최신을 반영하려면
+main 최신화
+git pull origin main
+기능 브랜치로 이동
+git merge main
+main을 기능 브랜치에 반영
+git merge main
+
 ## 브렌치를 이전 커밋으로 돌아가는 경우
 
 이전 커밋번호 확인
