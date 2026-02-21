@@ -69,6 +69,9 @@ git status
 새 브랜치 생성하면서 이동
 git switch -c feature/login-api
 
+기존 브랜치로 이동
+git switch feature/login-api
+
 ## 작업환경이 바뀐경우 (데스크톱 -> 노트북)
 git fetch
 
