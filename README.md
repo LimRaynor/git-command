@@ -41,6 +41,22 @@ git commit -m "feat: 기능 추가"
 브렌치에 푹시
 git push -u origin feature/login
 
+브렌치 개발에 시간이 좀 걸렸다면
+브렌치에 푸쉬후
+git switch main
+
+최신 메인으로 pull받고
+git pull origin main
+
+다시 기능개발하던 브렌치로 이동하고
+git switch feature/기능명
+
+최신 메인 상태병합하고 다시 테스트후 푸시
+git merge main
+
+
+
+
 ## 브랜치가 이미 있는걸 clone 했을 경우
 git pull origin feature/login
 
