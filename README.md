@@ -80,6 +80,18 @@ git switch -c feature/login-api
 기존 브랜치로 이동
 git switch feature/login-api
 
+
+## 브렌치에서 브렌치로 push 하는경우
+현재 브랜치 확인
+git branch
+변경 파일 스테이징
+git add .
+커밋 생성
+git commit -m "feat: 기본 카테고리 기능 추가"
+푸시하는 경우
+git push -u origin feature/Default-Category
+
+
 ## 작업환경이 바뀐경우 (데스크톱 -> 노트북)
 git fetch
 
