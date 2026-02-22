@@ -114,5 +114,12 @@ git fetch
 원격 브랜치 목록 확인
 git branch -r
 
-
 git pull origin feature/Default-Category
+
+
+git stash
+git pull origin 브랜치명
+git stash pop
+git add .
+git commit -m "노트북 추가 작업"
+git push origin 브랜치명
