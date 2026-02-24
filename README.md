@@ -107,6 +107,43 @@ git commit -m "feat: 기본 카테고리 기능 추가"
 푸시하는 경우
 git push -u origin feature/Default-Category
 
+## 팀프로젝트시 내가 수정한 파일이있는데 main이 새로 업데이트가 되었을 경우
+현재 상태 확인
+git status
+
+#### 실무에서 가장 많이 쓰는 패턴
+git add .
+git commit -m "작업중"
+git pull origin main
+
+### 임시 저장 (stash) 커밋하기 싫을때
+git stash
+
+git pull origin main
+
+다시복구
+git stash pop
+
+#### 실무에서 가장 많이 쓰는 패턴 2
+git stash
+git pull origin main
+git stash pop
+
+### 로컬수정 유지하면서 pull 받고 싶을때 
+커밋
+git add .
+git commit -m "WIP"
+받아오기
+git pull origin main
+
+
+
+### 로컬 수정된거 버리고 원격 상태로 전부 맞추고 싶을때 
+내용 전부 삭제됨
+git reset --hard
+git pull origin main
+
+
 
 ## 작업환경이 바뀐경우 (데스크톱 -> 노트북)
 git fetch
