@@ -143,7 +143,18 @@ git pull origin main
 git reset --hard
 git pull origin main
 
+## pirivate된 git hub에서 clone 받을 때 
+GitHub → Settings → Developer settings → Personal access tokens →
+Fine-grained token 생성
 
+- git clone
+
+- Username:
+Password:
+
+## pirivate된 git hub에서 clone 받을 때 2
+SSH 키 생성
+ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ## 작업환경이 바뀐경우 (데스크톱 -> 노트북)
 git fetch
