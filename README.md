@@ -168,6 +168,6 @@ git pull origin feature/Default-Category
 git stash
 git pull origin 브랜치명
 git stash pop
-git add .
+git add . (변경사항 전부 추가)
 git commit -m "노트북 추가 작업"
 git push origin 브랜치명
