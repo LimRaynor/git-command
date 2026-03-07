@@ -64,9 +64,11 @@ git pull origin feature/login
 main 최신화
 git pull origin main
 기능 브랜치로 이동
-git merge main
+git merge origin/main
 main을 기능 브랜치에 반영
-git merge main
+만약 .gradle 같이 걸리는 파일이있으면
+git checkout -- backend/.gradle  
+
 
 ## 브렌치를 이전 커밋으로 돌아가는 경우
 
